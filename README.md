@@ -1,8 +1,9 @@
-#Instructions for this task can be found in the instructions.md file
+# Instructions
+Instructions for this task can be found in the instructions.md file
 
 # Access to data
 
-The data is hosted on an S3 bucket for which you will request temporary access 
+The data is available on this repo inside the folder fsq-visits/
 
 # Documentation 
 
