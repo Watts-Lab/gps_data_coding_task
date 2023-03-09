@@ -1,7 +1,7 @@
 
 # GPS Mobility Data Analysis Take Home Task for Research Assistants
 
-Welcome to the **GPS Mobility Data Analysis** take home task for research assistant candidates at the CSSLab. This task is intended to test your coding, data analysis, and visualization skills and will be taken into account when considering your application. We estimate that this task should take approximately three hours to complete, but you can have a whole week if needed. 
+Welcome to the **GPS Mobility Data Analysis** take home task for research assistant candidates at the CSSLab. This task is intended to test your coding, data analysis, and visualization skills and will be taken into account when considering your application. We estimate that this task should take approximately six hours to complete, but you can have a whole week if needed. 
 
 The goal of this task is to analyze and visualize visits data from **Safegraph**, which is available on an online repository and is free to use. The data has been normalized and structured in large CSV files. This project will require you to use the weekly census tract to census tract flows, corresponding to March and April of 2020 and 2021. Your results should be presented in a short report emailed to shape@seas.upenn.edu with all code and graphics used for producing them also attached (you can choose any programming language that you prefer). 
 
@@ -15,7 +15,11 @@ Produce descriptive statistics about the number of visits of each census tract, 
 Plot the top visited census tracts for a few origin census tracts and answer whether it seems like users mostly visit geographies close to their home. Produce an overlay on a map of Philadelphia using geopandas or another library of your choice and explain any metrics you used to support your answers. 
 
 ## 4 Clustering & Analysis 
-Use some algorithm of your preference for clustering census tracts according to their visitation patterns (for March and April 2020). Explain your clustering procedure, its advantages, and its limitations. Perform the same exercise for the year of 2021; do you obtain the same results? Are any differences due to the nature of algorithm or because mobility patterns have changed? 
+Use some algorithm of your preference for clustering census tracts according to their visitation patterns for March and April 2020> i.e. the time series of places they have visited or to which they have flows/trips. How would you compare such high-dimensional vectors? How would you cluster them? Explain your clustering procedure (if any), its advantages, and its limitations.
+
+For clarity: We are looking to cluster high-dimensional vectors like the vector of out-flows, not a single variable like the aggregated out-flows, but some simplifications are allowed and encouraged.
+
+Perform the same exercise for the year of 2021; do you obtain the same results? Are any differences due to the nature of algorithm or because mobility patterns have changed? 
 
 ## 5 Overall Reflection   
 How much time did it take you to complete this task? How did you approach this task? If given more time what are additional extensions or improvements that could be made? 
