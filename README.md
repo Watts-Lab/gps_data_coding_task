@@ -1,11 +1,15 @@
 # Instructions
 Instructions for this task can be found in the instructions.md file
 
+# Access to data for ping and stop summarization task
+
+The device-level data for this task is divided in two types: (i) raw pings, located in this repository under data/gc_data/ , and (ii) stop data, which is the output of applying a stop-detection (spatio-temporal clustering) to raw data to identify periods of time in which an individual was stationary, these are located under data/gc_stop_data/ . This is synthetic data generated with a methodology described in the paper ["Garden city: A synthetic dataset and sandbox environment for analysis of pre-processing algorithms for GPS human mobility data"](https://arxiv.org/abs/2412.00913). The data does not correspond to a real city, rather, the coordinates are (purposefully) in the middle of the ocean. However, for visualization, you can use a file representing a mock city where this mobility unfolds. A layer of buildings can be found under data/garden_city.geojson.
+
 # Access to data for flows coding task
 
 The data consists of origin-destination flows derived from Safegraph foot-traffic data and is available for download for free on the following repository https://github.com/GeoDS/COVID19USFlows#code-usage. This data was prepared for the publication of Kang, Y., Gao, S., Liang, Y. Li, M., Rao, J. and Kruse, J. Multiscale dynamic human mobility flow dataset in the U.S. during the COVID-19 epidemic. Scientific Data 7, 390 (2020). https://www.nature.com/articles/s41597-020-00734-5.
 
-# Access to data for GPS device-level data coding task
+# Access to data for Geolife data coding task
 
 The data consists of a series of .plt files (which can be opened in Python or R) containing GPS records of 182 users in a period of over 5 years. This data can be downloaded for free on the following site https://www.microsoft.com/en-us/download/details.aspx?id=52367. The data is referenced in the publication Zheng, Yu, Xing Xie, and Wei-Ying Ma. "GeoLife: A collaborative social networking service among user, location and trajectory." IEEE Data Eng. Bull. 33.2 (2010): 32-39.
 
